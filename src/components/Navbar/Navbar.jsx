@@ -12,7 +12,7 @@ let Navbar = () => {
                 <NavLink to={'/dialogs'} activeClassName={s.activeLink}>Message</NavLink>
             </div>
             <div className={s.item}>
-                <a>News</a>
+                <a href="#">News</a>
             </div>
             <div className={s.item}>
                 <a>Music</a>
