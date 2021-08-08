@@ -7671,6 +7671,11 @@
     "util" "^0.11.0"
     "vm-browserify" "^1.0.1"
 
+"node-module@^2.0.0":
+  "integrity" "sha1-G6NJPNlVpRWJYQ03zdatcHa4ndA="
+  "resolved" "https://registry.npmjs.org/node-module/-/node-module-2.0.0.tgz"
+  "version" "2.0.0"
+
 "node-modules-regexp@^1.0.0":
   "integrity" "sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA="
   "resolved" "https://registry.npmjs.org/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz"
