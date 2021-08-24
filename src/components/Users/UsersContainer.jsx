@@ -4,7 +4,6 @@ import {setTotalUsersCount, toggleIsFetching, unfollow} from "../../redux/users-
 import {follow, setCurrentPage, setUsers} from "../../redux/users-reducer";
 import * as axios from "axios";
 import Users from "./Users";
-import preloader from '../../assets/images/Rocket.gif';
 import Preloader from "../common/preolader/preloader";
 
 class UsersContainer extends React.Component {
