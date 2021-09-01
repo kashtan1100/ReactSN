@@ -21,10 +21,13 @@ export const UsersApi = {
     unfollow(userId) {
         return instance.delete(`follow/${userId}`)
     },
-    dataUsers(){
-        return instance.get(`auth/me`)
-    },
-    profileUser(userId){
+    getProfile(userId){
         return instance.get(`profile/` + userId)
+    }
+}
+
+export const AuthApi = {
+    me(){
+        return instance.get(`auth/me`)
     }
 }
