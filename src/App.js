@@ -26,6 +26,6 @@ const App = (props) => {
         </div>
     );
 }
-test
+
 
 export default App;
