@@ -18,7 +18,7 @@ let ProfileInfo = (props) => {
             <div className={s.desBlock}>
                 <img src={props.profile.photos.large}/>
                 <p>{props.profile.lookingForAJobDescription}</p>
-                <ProfileStatus status={"hello my friends"}/>
+                <ProfileStatus status={props.status}/>
             </div>
         </div>
     );
