@@ -2,6 +2,7 @@ import React from "react";
 import s from './ProfileInfo.module.css';
 import Preloader from "../../common/preolader/preloader";
 import ProfileStatus from "./ProfileStatus";
+import ProfileStatusWithHooks from "./ProfileStatusWithHooks";
 
 
 let ProfileInfo = (props) => {
@@ -18,7 +19,7 @@ let ProfileInfo = (props) => {
             <div className={s.desBlock}>
                 <img src={props.profile.photos.large}/>
                 <p>{props.profile.lookingForAJobDescription}</p>
-                <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
+                <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
             </div>
         </div>
     );
