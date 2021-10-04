@@ -5,7 +5,6 @@ import MyPostsContainer from "./MyPosts/MyPostsContainer";
 import {updateStatus} from "../../redux/profile-reducer";
 
 let Profile = (props) => {
-
     return (
         <div>
             <ProfileInfo profile={props.profile}
